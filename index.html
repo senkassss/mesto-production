@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-Belri28d.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BVkHpPRt.css">
+    <script type="module" crossorigin src="./assets/index-BVXfDwWp.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DSXJmhTa.css">
   </head>
   <body class="page">
     <div class="page__content">
@@ -156,7 +156,6 @@
         <button class="popup__close" type="button" aria-label="Закрыть"></button>
         <h2 class="popup__title">Статистика пользователей</h2>
         <ul class="popup-info__definitions"></ul>
-        <h3 class="popup-info__subtitle">Все пользователи:</h3>
         <ul class="popup-info__users"></ul>
       </div>
     </div>
@@ -183,7 +182,11 @@
     </template>
 
     <template id="popup-info-user-preview-template">
-      <li class="popup-info__user-preview"></li>
+      <li class="popup-info__user-preview">
+        <img class="popup-info__avatar" alt="" />
+        <span class="popup-info__name"></span>
+        <span class="popup-info__count"></span>
+      </li>
     </template>
 
   </body>
